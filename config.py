@@ -38,23 +38,19 @@ class var(object):
         group_start_text = "Hey :) PM me if you have any questions on how to use me!"
         #Rose help menu text message here 
         help_text = """
-**Welcome to help menu**
-
-I'm a group management bot with some useful features.
-You can choose an option below, by clicking a button.
-If you have any bugs or questions on how to use me, 
-have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @szteambots.
-
-**All commands can be used with the following: / **"""
+ᴋʟɪᴋ ᴛᴏᴍʙᴏʟ ᴅɪ ʙᴀᴡᴀʜ ɪɴɪ ᴜɴᴛᴜᴋ ᴍᴇɴᴅᴀᴘᴀᴛᴋᴀɴ ᴅᴇsᴋʀɪᴘsɪ ᴛᴇɴᴛᴀɴɢ ᴘᴇʀɪɴᴛᴀʜ sᴘᴇsɪꜰɪᴋ.
+❉ /start : Mulai Saya!!
+❉ /help : Perintah Untuk Membantu Anda
+"""
         #Rose start menu conections(split commands on start)
         Connection_text_start = "** Run /connections to view or disconnect from groups!**"
         #Rose private start message here
         pm_start_text = """
 Hey {},my name is {}
-❉ ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [🤖](https://telegra.ph/file/c97b7e4f0af6394db940b.jpg)
+❉ ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ 🤖
 ────────────────────
-⊳ ᴜᴘᴛɪᴍᴇ -≽ 3h:1m:31s
-⊳ ᴅɪɢᴜɴᴀᴋᴀɴ 181753 ᴘᴇɴɢɢᴜɴᴀ, ᴅɪ 453 ɢʀᴏᴜᴘ
+⊳ ᴜᴘᴛɪᴍᴇ -≽ 10h:1m:31s
+⊳ ᴅɪɢᴜɴᴀᴋᴀɴ 96829 ᴘᴇɴɢɢᴜɴᴀ, ᴅɪ 800 ɢʀᴏᴜᴘ
 ────────────────────
 ❉ ᴛᴇᴋᴀɴ ᴛᴏᴍʙᴏʟ ʙᴀɴᴛᴜᴀɴ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ sᴇᴍᴜᴀ ᴘᴇʀɪɴᴛᴀʜ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ.
 """
@@ -96,18 +92,11 @@ Hey {},my name is {}
         about_buttons = InlineKeyboardMarkup(
                 [
                         [
-                                InlineKeyboardButton(text="👥Support Group", url="https://t.me/szrosesupport"),
-                                InlineKeyboardButton(text="👤News Channel", url="https://t.me/Theszrosebot")
+                                InlineKeyboardButton(text="👨‍💻 sʜɪɴᴢō", url="https://t.me/ShinzoShitsuren"),
+                                InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ 💌", url="https://t.me/Shinzo_Shitsuren")
                         ], 
                         [ 
-                                InlineKeyboardButton(text="⚒ Source Code", url="https://github.com/szsupunma/sz-rosebot"),
-                                InlineKeyboardButton(text="📓 Documentation", url="https://szsupunma.gitbook.io/rose-bot")
-                        ], 
-                        [
-                                InlineKeyboardButton(text="🖥 How To Deploy Me", url="https://youtu.be/ZUvFSU8W7VA")
-                        ],
-                        [
-                                InlineKeyboardButton("« Back", callback_data='startcq')
+                                InlineKeyboardButton("ᴋᴇᴍʙᴀʟɪ", callback_data='startcq')
                         ]
                 ]
 )
@@ -115,19 +104,17 @@ Hey {},my name is {}
         home_keyboard_pm = InlineKeyboardMarkup(
                 [
                         [
-                                InlineKeyboardButton(text="Add Me To Your Chat 🎉",url=f"http://t.me/{Config.BOT_USERNAME}?startgroup=new")
+                                InlineKeyboardButton(text="➕ ᴛᴀᴍʙᴀʜᴋᴀɴ ᴀᴋᴜ ᴋᴇ ɢʀᴜᴘ ᴋᴀᴍᴜ ➕",url=f"http://t.me/{Config.BOT_USERNAME}?startgroup=new")
                         ],
                         [
-                                InlineKeyboardButton(text="About ✨",callback_data="_about"),
-                                InlineKeyboardButton(text="languages 🌏",callback_data="_langs")
+                                InlineKeyboardButton(text="👑 ᴏᴡɴᴇʀ",url=f"https://t.me/ShinzoShitsuren"),
+                                InlineKeyboardButton(text="ᴅᴏɴᴀᴛᴇ 🎁",callback_data="_about")
                         ],
                         [
-                                InlineKeyboardButton(text="Help Menu ⚒",callback_data="bot_commands")
-                        ],
-                        [
-                                InlineKeyboardButton(text="Website 💭",url=f"https://szrosebot.ml"),
-                                InlineKeyboardButton(text="News Channel 📢",url=f"https://t.me/szroseupdates")
-                        ]
+                                InlineKeyboardButton(text="🗒 ʙᴀɴᴛᴜᴀɴ",callback_data="bot_commands"),
+                                InlineKeyboardButton(text="ʙᴀʜᴀsᴀ 🇮🇩",callback_data="_langs")
+                        [            
+  
                 ]
 )
         
