@@ -113,7 +113,7 @@ Hey {},my name is {}
                         [
                                 InlineKeyboardButton(text="🗒 ʙᴀɴᴛᴜᴀɴ",callback_data="bot_commands"),
                                 InlineKeyboardButton(text="ʙᴀʜᴀsᴀ 🇮🇩",callback_data="_langs")
-                        [            
+                        ]            
   
                 ]
 )
