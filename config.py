@@ -50,8 +50,14 @@ have a look at my [Docs](https://szsupunma.gitbook.io/rose-bot/), or head to @sz
         Connection_text_start = "** Run /connections to view or disconnect from groups!**"
         #Rose private start message here
         pm_start_text = """
-Hey there {},my name is {}
-An  advanced telegram Group management Bot For helpYou Protect Your Groups & Suit For All Your Needs.feel free to add me to your groups! """
+Hey {},my name is {}
+❉ ɪ'ᴍ ᴀɴ ᴀɴɪᴍᴇ-ᴛʜᴇᴍᴇ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ [🤖](https://telegra.ph/file/c97b7e4f0af6394db940b.jpg)
+────────────────────
+⊳ ᴜᴘᴛɪᴍᴇ -≽ 3h:1m:31s
+⊳ ᴅɪɢᴜɴᴀᴋᴀɴ 181753 ᴘᴇɴɢɢᴜɴᴀ, ᴅɪ 453 ɢʀᴏᴜᴘ
+────────────────────
+❉ ᴛᴇᴋᴀɴ ᴛᴏᴍʙᴏʟ ʙᴀɴᴛᴜᴀɴ ᴜɴᴛᴜᴋ ᴍᴇʟɪʜᴀᴛ sᴇᴍᴜᴀ ᴘᴇʀɪɴᴛᴀʜ ʏᴀɴɢ ᴛᴇʀsᴇᴅɪᴀ.
+"""
         #Languages change text menu here 
         lang_text = "Choose Your languages"
 
